@@ -1,0 +1,840 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* child 1 start  */
+.parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.child-1 {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.child-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 80px;
+    background-color: #f2f5fa;
+    
+}
+
+.child-left p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.h1-text {
+    width: 80%;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #007ab3;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#upskilling {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.child-right {
+    width: 50%;
+}
+
+.child-right img {
+    width: 100%;
+}
+/*child end  */
+
+
+
+/* child 2 start  */
+.child-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child-2 p {
+    margin-bottom: 0;
+}
+
+.percent-box {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 90%;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: -105px;
+}
+
+.percent-box span {
+    font-size: 35px;
+    padding-right: 10PX;
+}
+
+#border {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.mobile-percent-box {
+    display: none;
+}
+
+.logo-line {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+
+.logo {
+    width: 47%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.line {
+    width: 47%;
+}
+
+/* .logo img {
+    width: 100px;
+    height: 100px;
+} */
+
+.hubspot {
+    width: 120px;
+    height: 30px;
+    margin-top: 28px;
+    
+}
+
+.sap {
+    width: 100px;
+    height: 80px;
+}
+
+.ibm {
+    width: 100px;
+    height: 80px;
+}
+
+.nvidia {
+    width: 120px;
+    height: 80px;
+}
+
+.cisco {
+    width: 100px;
+    height: 80px;
+}
+
+.toshiba {
+    width: 110px;
+    height: 80px;
+}
+
+/* .vertical {
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+} */
+
+.horizondal {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* child 2 end */
+
+
+
+/* child 3 start */
+.child-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #007ab3;
+    margin-top: 30px;
+}
+
+.transform-icons {
+    display: flex;
+    width: 90%;
+    gap: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.transform-icons p {
+    margin-bottom: 0;
+}
+
+.transform {
+    width: 50%;
+    
+}
+
+.icons {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub-icons {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-icons img {
+    width: 50px;
+}
+
+
+
+.child-4 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.child-4 p {
+    margin-bottom: 0;
+}
+
+.big-logo-quality-content {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
+}
+
+.big-logo {
+    display: flex;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.big-logo img {
+    width: 100%;
+}
+
+.mobile-big-logo {
+    display: none;
+}
+
+.quality-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.quality-content-text-1 {
+    font-weight: bold;
+}
+
+.quality-content a {
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 10px;
+    width: fit-content;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #007ab3;
+}
+
+.quality-content a:hover {
+    background-color: #007ab3;
+    color: white;
+    
+}
+
+
+
+.child-5 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;    
+    background-color: #007ab3;
+    color: white;
+}
+
+.sub-child-5 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sub-child-5 p {
+    margin-bottom: 0;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.top-text-1 {
+    font-weight: bold;
+}
+
+.top-text-3 {
+    width: 65%;
+    font-size: 18px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bottom-text-1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.four-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: white;
+    color: black;
+}
+
+.cards-image {
+    width: 100%;
+}
+
+.cards-image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards-text {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cards-text-1 {
+    font-weight: bold;
+}
+
+.cards-text-2 {
+    color: gray;
+    font-size: 14px;
+}
+
+.cards-text-3 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sub-cards-text-3 {
+    color: gray;
+    font-size: 12px;
+}
+
+.cards-text-4 {
+    color: #007ab3;
+}
+
+
+
+#horizondal {
+    margin: 0;
+}
+
+
+
+.child-6 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;    
+    background-color: #f2f5fa;
+    /* color: white; */
+}
+
+.sub-child-6 {
+    width: 90%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+.sub-child-6 p {
+    margin-bottom: 0;
+}
+
+.sub-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.sub-left-text-1 {
+    font-weight: bold;
+}
+
+.sub-left-text-2 {
+    font-size: 18px;
+    color: black;
+}
+
+.sub-left-text-7 {
+    margin-top: 40px;
+}
+
+.sub-left-text-8 {
+    width: 75%;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.six-logo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 25px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.six-logo img {
+    width: 100px;
+}
+
+#reliance {
+    width: 70px;
+}
+
+#pg {
+    width: 70px;
+}
+
+.equifax {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sub-equifax-1 img {
+    width: 100px;
+}
+
+.sub-equifax-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.equifax-text-1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.sub-right {
+    width: 50%;
+    display: flex;
+    align-items: start;
+}
+
+.contact-form {
+    width: 100%;
+    /* margin: auto; */
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
+}
+
+.contact-form p {
+    
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #007ab3;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.child-7 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.child-7 p {
+    margin-bottom: 0;
+}
+
+.three-cards {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sub-three-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 34%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    gap: 50px;
+    background-color: #007ab3;
+    color: white;
+    
+}
+
+.sub-three-cards-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+} 
+
+.three-cards-text-1 {
+    font-size: 28px;
+}
+
+.three-cards-text-3 {
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width : 320px) and (max-width : 768px) 
+{
+
+    .child-1 {
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+       
+    }
+
+    .child-left {
+        width: 100%;
+        padding-left: 10px;
+         padding-bottom: 30px;
+         padding-top: 10px;
+    }
+
+    .h1-text {
+        font-size: 27px;
+    }
+
+    .child-right {
+        width: 100%;
+    }
+
+
+    .child-2 {
+        position: relative;
+    }
+
+    .percent-box {
+        display: none;
+    }
+
+    .mobile-percent-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        border: 1px solid black;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-weight: bold;  
+        position: absolute;
+        top: -60px;
+    }
+
+    .mobile-percent-box span {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+    .mobile-percent-box p {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+
+    #mobile-border-1 {
+        padding-bottom: 20px;
+    }
+
+    #mobile-border-2 {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #mobile-border-3 {
+        padding-top: 20px;
+    }
+
+    .logo-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .line {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .line h1 {
+        margin-bottom: 0;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .mobile-logo {
+         width: 90%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .mobile-logo img {
+        width: 80px;
+    }
+
+    .transform-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .transform {
+        width: 100%;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        width: 100%;
+        gap: 45px;
+    }
+
+    .sub-icons {
+        width: 100%;
+    }
+
+
+
+    .big-logo-quality-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .big-logo {
+        display: none;
+    }
+
+    .quality-content {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .mobile-big-logo {
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .mobile-big-logo img {
+        width: 100%;
+    }
+
+    .top-text-3 {
+        width: unset;
+    }
+
+    .four-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-child-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-left {
+        width: 100%;
+    }
+
+    .sub-left-text-7 {
+        display: none;
+    }
+
+    .sub-left-text-8 {
+        display: none;
+    }
+
+    .six-logo {
+        display: none;
+    }
+
+    .equifax {
+        display: none;
+    }
+
+    .sub-right {
+        width: 100%;
+    }
+
+
+
+    .child-7 {
+        margin-bottom: 20px;
+    }
+
+    .three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-three-cards {
+        width: 100%;
+    }
+    
+}
