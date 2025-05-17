@@ -2,17 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 
 
-/* child 1 start  */
 .parent {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
+
+
+/* child 1 start  */
 .child-1 {
     display: flex;
     width: 100%;
@@ -27,7 +30,6 @@
     padding-top: 60px;
     padding-left: 80px;
     background-color: #f2f5fa;
-    
 }
 
 .child-left p {
@@ -66,7 +68,7 @@
 .child-right img {
     width: 100%;
 }
-/*child end  */
+/*child 1 end  */
 
 
 
@@ -121,7 +123,6 @@
     margin-top: 100px;
 }
 
-
 .logo {
     width: 47%;
     display: grid;
@@ -136,16 +137,10 @@
     width: 47%;
 }
 
-/* .logo img {
-    width: 100px;
-    height: 100px;
-} */
-
 .hubspot {
     width: 120px;
     height: 30px;
-    margin-top: 28px;
-    
+    margin-top: 28px;   
 }
 
 .sap {
@@ -172,10 +167,6 @@
     width: 110px;
     height: 80px;
 }
-
-/* .vertical {
-    border-right: 1px solid rgba(0, 0, 0, 0.4);
-} */
 
 .horizondal {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -231,9 +222,11 @@
 .sub-icons img {
     width: 50px;
 }
+/* child 3 end */
 
 
 
+/* child 4 start */
 .child-4 {
     display: flex;
     width: 100%;
@@ -292,11 +285,12 @@
 .quality-content a:hover {
     background-color: #007ab3;
     color: white;
-    
 }
+/* child 4 end */
 
 
 
+/* child 5 start */
 .child-5 {
     display: flex;
     width: 100%;
@@ -315,6 +309,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .sub-child-5 p {
     margin-bottom: 0;
 }
@@ -403,28 +398,22 @@
 .cards-text-4 {
     color: #007ab3;
 }
+/* child 5 end */
 
 
 
-#horizondal {
-    margin: 0;
-}
-
-
-
+/* child 6 start */
 .child-6 {
     display: flex;
     width: 100%;
     justify-content: center;
     padding-top: 30px;    
     background-color: #f2f5fa;
-    /* color: white; */
 }
 
 .sub-child-6 {
     width: 90%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     gap: 15px;
     padding-top: 30px;
@@ -566,8 +555,11 @@
     font-size: 16px;
     cursor: pointer;
 }
+/* child 6 end */
 
 
+
+/* child 7 start */
 .child-7 {
     display: flex;
     flex-direction: column;
@@ -600,7 +592,6 @@
     gap: 50px;
     background-color: #007ab3;
     color: white;
-    
 }
 
 .sub-three-cards-top {
@@ -620,17 +611,17 @@
     width: fit-content;
     cursor: pointer;
 }
+/* child 7 end */
 
 
 
 @media screen and (min-width : 320px) and (max-width : 768px) 
 {
 
+    /* child 1 start */
     .child-1 {
         display: flex;
         flex-direction: column;
-        /* gap: 20px; */
-       
     }
 
     .child-left {
@@ -647,8 +638,11 @@
     .child-right {
         width: 100%;
     }
+    /* child 1 end */
 
 
+
+    /* child 2 start */
     .child-2 {
         position: relative;
     }
@@ -735,7 +729,11 @@
     .mobile-logo img {
         width: 80px;
     }
+    /* child 2 end */
 
+
+
+    /* child 3 start */
     .transform-icons {
         display: flex;
         flex-direction: column;
@@ -757,9 +755,11 @@
     .sub-icons {
         width: 100%;
     }
+    /* child 3 end */
 
 
 
+    /* child 4 start */
     .big-logo-quality-content {
         display: flex;
         flex-direction: column;
@@ -783,7 +783,11 @@
     .mobile-big-logo img {
         width: 100%;
     }
+    /* child 4 end */
 
+
+
+    /* child 5 start */
     .top-text-3 {
         width: unset;
     }
@@ -792,7 +796,11 @@
         display: flex;
         flex-direction: column;
     }
+    /* child 5 end */
 
+
+
+    /* child 6 start */
     .sub-child-6 {
         display: flex;
         flex-direction: column;
@@ -821,9 +829,11 @@
     .sub-right {
         width: 100%;
     }
+    /* child 6 end */
 
 
 
+    /* child 7 start */
     .child-7 {
         margin-bottom: 20px;
     }
@@ -836,5 +846,6 @@
     .sub-three-cards {
         width: 100%;
     }
+    /* child 7 end */
     
 }
